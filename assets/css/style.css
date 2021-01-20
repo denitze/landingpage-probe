@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --dark: #000000;
+    --light: #ffffff;
+    --gray: #676767;
+    --light-shade: #f0f0f0;
+    --primary:#6A51D6;
+  }
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    background: var(--light-shade);
+    padding: 5rem;
+}
+
+
+section{
+    padding-bottom:10vh;
+}
+
+
+h1 {
+    margin:0 auto;
+    font-size: 6rem;
+    font-weight: 800;
+    color: var(--light);
+    width:60%;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom:5vh;
+}
+
+h3{
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom:2vh;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin:1vh 0;
+}
+
+p{
+    color: var(--gray);
+    line-height: 1.5;
+}
+
+/* Hero-Sec */
+
+.hero-sec{
+    min-height: 100vh;
+    background: var(--primary);
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Special-Sec */
+
+.special-sec article{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.special-sec div {
+    margin-left:5rem;
+}
+
+.special-sec p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* News-Sec */
+
+
+
+.news {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+}
+
+.news figure {
+    background: var(--light); 
+    padding:.8rem;  
+    border-radius: 6px;
+}
+.news img{
+    width:100%;
+}
+
+.news-topic{
+    margin-top:.5vh;
+    color:var(--primary);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.news p{
+    font-weight: 400;
+    padding-right:.8rem;
+}
+
+/* Employees-Sec */
+
+.employees {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem;
+    text-align:center;
+}
+
+.employees figure {
+    margin-bottom:3vh;
+}
+
+.employees figcaption p:first-of-type {
+    text-transform: uppercase;
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.employees img{
+    border-radius:50%;
+    border:10px solid var(--light);
+}
+
+@media only screen and (min-width: 1588px) {
+    main{
+        padding: 5rem 15rem ;
+    }
+
+    .news p{
+        padding-right:0;
+    }
+    }
+
+
+
+
+
+
+
