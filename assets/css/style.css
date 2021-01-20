@@ -161,7 +161,7 @@ p{
 @media only screen and (max-width: 1195px) {
 
     .hero-sec {
-        min-height: 50vh;
+        min-height: 80vh;
         }
     .special-sec img {
         width:70%;
@@ -192,7 +192,7 @@ p{
 @media only screen and (max-width: 889px) {
 
     .hero-sec {
-        min-height: 50vh;
+        min-height: 60vh;
     }
 
     h1 {
@@ -243,13 +243,12 @@ p{
             padding: 5rem 3rem ;
         }   
 
-
     section{
         padding-bottom:5vh;
     }
     
     h1 {
-        font-size: 2.25rem;
+        font-size: 2.75rem;
         }
         
     h2{
@@ -270,10 +269,6 @@ p{
 
     .news p{
         font-size: .8rem;
-    }
-
-    .employees img{
-        width:75%;
     }
     
     }
